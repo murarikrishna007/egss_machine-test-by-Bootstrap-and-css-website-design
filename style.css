@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-phone{
+    position: relative;
+    top: 9px;
+}
+.phone-img img{
+    color: rgb(49, 231, 49);
+}
+.nav-phone .num{
+    color: green;
+}
+
+/* olive logo css */
+.olive-logo{
+    position: relative;
+    top:10px;
+    left: 220px;
+}
+@media (max-width:992px){
+    .olive-logo{
+        position: absolute;
+        top: 10px;
+        left: 250px;
+    }
+    .olive-logo img{
+        width: 180px;
+        height: 33px;
+    }
+}
+
+/* register */
+.register{
+    position: relative;
+    left:350px;
+    text-decoration: none;
+}
+
+@media (max-width:992px){
+    .register{
+        position: absolute;
+        top: 470px;
+        left: 15px;
+    }
+    button .btn{
+        position: relative;
+        top: 520px;
+    }
+}
